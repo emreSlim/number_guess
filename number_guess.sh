@@ -1,6 +1,5 @@
 #!/bin/bash
-# pg_dump -cC --inserts -U freecodecamp number_guess > backup.sql
-# psql -U postgres < backup.sql
+
 $RANDOM
 rn=`shuf -i 1-1000 -n 1`
 
